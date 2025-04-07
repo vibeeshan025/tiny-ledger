@@ -1,0 +1,6 @@
+@Teya.TinyLedger.App_HostAddress = http://localhost:5188
+
+GET {{Teya.TinyLedger.App_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

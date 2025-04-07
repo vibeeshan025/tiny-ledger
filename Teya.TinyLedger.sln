@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teya.TinyLedger.Api", "Teya.TinyLedger.Api\Teya.TinyLedger.Api.csproj", "{A4309991-7B83-4B13-B5B8-C5A6C88BD27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teya.TinyLedger.Tests", "Teya.TinyLedger.Tests\Teya.TinyLedger.Tests.csproj", "{B52F39A1-BB46-4B69-AC7F-DACC647A606E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teya.TinyLedger.Infrastructure", "Teya.TinyLedger.Infrastructure\Teya.TinyLedger.Infrastructure.csproj", "{ADD8D20D-EA58-4F2E-9296-CC580288FFE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teya.TinyLedger.Domain", "Teya.TinyLedger.Domain\Teya.TinyLedger.Domain.csproj", "{14C58A3A-0F6B-46A8-A2DA-AA3C91EE6A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teya.TinyLedger.Application", "Teya.TinyLedger.Application\Teya.TinyLedger.Application.csproj", "{7F82DD7C-98F4-40DD-9384-EF924DF5D5F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4309991-7B83-4B13-B5B8-C5A6C88BD27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4309991-7B83-4B13-B5B8-C5A6C88BD27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4309991-7B83-4B13-B5B8-C5A6C88BD27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4309991-7B83-4B13-B5B8-C5A6C88BD27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52F39A1-BB46-4B69-AC7F-DACC647A606E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52F39A1-BB46-4B69-AC7F-DACC647A606E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52F39A1-BB46-4B69-AC7F-DACC647A606E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52F39A1-BB46-4B69-AC7F-DACC647A606E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD8D20D-EA58-4F2E-9296-CC580288FFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD8D20D-EA58-4F2E-9296-CC580288FFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD8D20D-EA58-4F2E-9296-CC580288FFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD8D20D-EA58-4F2E-9296-CC580288FFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C58A3A-0F6B-46A8-A2DA-AA3C91EE6A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C58A3A-0F6B-46A8-A2DA-AA3C91EE6A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C58A3A-0F6B-46A8-A2DA-AA3C91EE6A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C58A3A-0F6B-46A8-A2DA-AA3C91EE6A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F82DD7C-98F4-40DD-9384-EF924DF5D5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F82DD7C-98F4-40DD-9384-EF924DF5D5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F82DD7C-98F4-40DD-9384-EF924DF5D5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F82DD7C-98F4-40DD-9384-EF924DF5D5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

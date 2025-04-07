@@ -48,14 +48,14 @@ The architecture is based on DDD, CQRS and Onion Project Structure
 
 4. **Run the API**
    ```bash
-   dotnet run
+   dotnet run --project Teya.TinyLedger.Api
    ```
     - The console output typically shows something like:
       ```
-      Now listening on: http://localhost:5000
+      Now listening on: http://localhost:5188
       Application started...
       ```
-    - Visit `http://localhost:5000` in a browser or use a tool (e.g. `curl`, Postman) to access endpoints.
+    - Visit `http://localhost:5188/swagger/` in a browser or use a tool (e.g. `curl`, Postman) to access endpoints.
 
 ---
 

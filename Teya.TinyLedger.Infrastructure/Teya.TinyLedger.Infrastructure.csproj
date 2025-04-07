@@ -7,13 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="DependencyInjection\" />
-      <Folder Include="Repositories\" />
+      <ProjectReference Include="..\Teya.TinyLedger.Application\Teya.TinyLedger.Application.csproj" />
+      <ProjectReference Include="..\Teya.TinyLedger.Domain\Teya.TinyLedger.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Teya.TinyLedger.Application\Teya.TinyLedger.Application.csproj" />
-      <ProjectReference Include="..\Teya.TinyLedger.Domain\Teya.TinyLedger.Domain.csproj" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.3" />
     </ItemGroup>
 
 </Project>
